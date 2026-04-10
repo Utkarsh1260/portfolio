@@ -64,9 +64,7 @@ const About = () => {
 
                     {/* About me paragraph */}
                     <p className="text-base sm:text-lg text-gray-400 mb-10 max-w-2xl leading-relaxed">
-                        I am a full-stack developer with over 2 years of experience in building scalable web applications.
-                        Skilled in both front-end and back-end development, I specialize in the MERN stack and other
-                        modern technologies to create seamless user experiences and efficient solutions.
+                 As an aspiring Backend Developer, I am independently building scalable server-side applications using Node.js, Express.js, and MongoDB. Through continuous learning and hands-on projects, I focus on developing efficient APIs, strong database structures, and clean backend architecture. My journey reflects dedication to mastering backend technologies and creating secure, high-performance applications.
                     </p>
 
                     {/* Resume Button */}
@@ -88,7 +86,14 @@ const About = () => {
                 <div className="md:w-1/2 flex justify-center md:justify-end">
                     <div className="relative">
                         <div className="absolute inset-0 rounded-full bg-[#735fff] opacity-45 blur-2xl"></div>
-                            <Tilt className="relative w-56 h-56 sm:w-[19rem] sm:h-[19rem] md:w-[25rem] md:h-[25rem] rounded-full border-[6px] border-[#8466ff] overflow-hidden shadow-[0_0_44px_rgba(130,101,255,0.75)]">
+                            <Tilt className="relative w-56 h-56 sm:w-[19rem] sm:h-[19rem] md:w-[25rem] md:h-[25rem] rounded-full border-[6px] border-[#8466ff] overflow-hidden shadow-[0_0_44px_rgba(130,101,255,0.75)]"
+                            tiltMaxAngleX={20}
+                            tiltMaxAngleY={20}
+                            perspective={1000}
+                            scale={1.05}
+                            transitionSpeed={1000}
+                            gyroscope={true}
+                            >
                             <img
                                 src={profileImage}
                                 alt="Utkarsh kushwaha"

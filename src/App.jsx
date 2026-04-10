@@ -20,14 +20,14 @@ export default function App() {
 
   </div>
   <div className="relative pt-2 ">
-    <About/>
-    <Contact/>
-    <Education/>
-    <Experience/>
-    <Footer/>
-    <Navbar/>
-    <Skills/>
-    <Work/>
+        <Navbar />
+        <About />
+        <Skills />
+        {/* <Experience /> */}
+        {/* <Work /> */}
+        <Education />
+        <Contact />
+        <Footer />
   </div>
 
 </div>
