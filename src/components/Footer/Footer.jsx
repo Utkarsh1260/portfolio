@@ -27,7 +27,7 @@ const Footer = () => {
     // { icon: <FaFacebook />, link: 'https://www.facebook.com/tarun.kaushik.3511041/' },
     // { icon: <FaTwitter />, link: 'https://twitter.com/CodingMaster67?s=09' },
     { icon: <FaLinkedin />, link: 'https://linkedin.com/in/utkarsh1260' },
-    { icon: <FaInstagram />, link: 'https://www.instagram.com/coding._master/' },
+    { icon: <FaInstagram />, link: 'https://www.instagram.com/tech_sprintt/' },
     // { icon: <FaYoutube />, link: 'https://www.youtube.com/codingmasteryt' },
   ]
 
